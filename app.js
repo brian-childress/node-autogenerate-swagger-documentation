@@ -9,6 +9,7 @@ const port = process.env.PORT || 5000;
 const swaggerOptions = {
   swaggerDefinition: {
     info: {
+      version: "1.0.0",
       title: "Customer API",
       description: "Customer API Information",
       contact: {
